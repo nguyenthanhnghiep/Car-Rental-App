@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#506AD0B2"
+    android:orientation="vertical"
+    tools:context=".KhachHang.ChonKhachHang">
+
+    <EditText
+        android:id="@+id/edtidkh"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="ID Loại khách hàng"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btnsearchkh"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#6AD0B2"
+        android:text="Tìm" />
+
+
+    <ListView
+        android:id="@+id/lvkh"
+        android:layout_width="match_parent"
+        android:layout_height="395dp" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btndangky_ckh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#6AD0B2"
+        android:text="Đăng Ký Khách Hàng" />
+
+</LinearLayout>

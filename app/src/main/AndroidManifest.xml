@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App_Thue_Xe_CNPMNC"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".QuanLy.HoSoDatXe"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLy.SoXe_QuanLy"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLy.Barchart_activity"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLy.ThongTinXe"
+            android:exported="false" />
+        <activity
+            android:name=".QuanLy.ChonXe"
+            android:exported="false" />
+        <activity
+            android:name=".TrangQuanly"
+            android:exported="false" />
+        <activity
+            android:name=".Xe.ThemXe"
+            android:exported="false" />
+        <activity
+            android:name=".HoaDon.HoaDon_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HopDong2.XemHopDong"
+            android:exported="false" />
+        <activity
+            android:name=".KhachHang.Add_KhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".KhachHang.ChonKhachHang"
+            android:exported="false" />
+        <activity
+            android:name=".DatXe.Add_DatXe"
+            android:exported="false" />
+        <activity
+            android:name=".HopDong2.Add_HopDong"
+            android:exported="false" />
+        <activity
+            android:name=".HopDong2.Add_HopDong"
+            android:exported="false" />
+        <activity
+            android:name=".DatXe.TrangDatXe"
+            android:exported="false" />
+        <activity
+            android:name=".Xe.XemXe"
+            android:exported="false" />
+        <activity
+            android:name=".TrangNV"
+            android:exported="false" />
+        <activity
+            android:name=".DatXe.DatXe_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SoXe.SoXe_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhap.DangKy"
+            android:exported="false" />
+        <activity
+            android:name=".DangNhap.DangNhapNV"
+            android:exported="false" />
+        <activity
+            android:name=".LoaiXe.LoaiXe_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Main2Activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

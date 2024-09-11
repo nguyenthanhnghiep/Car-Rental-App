@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:background="@drawable/btn_datxe">
+
+        <TextView
+            android:id="@+id/tvXeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xe ID"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvHopDongId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hop dong"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvSoXeID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So xe ID"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNgayTra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngay tra"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvNgayThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ngay thue"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</LinearLayout>

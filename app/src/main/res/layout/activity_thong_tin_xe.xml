@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QuanLy.ThongTinXe"
+    android:background="@drawable/backround">
+
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người đang chờ"
+        android:gravity="center"
+
+        android:textSize="30dp"
+        android:background="@drawable/btn_datxe"/>
+
+    <ListView
+        android:id="@+id/lvxedangdat"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="228dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người hoàn thành"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:background="@drawable/btn_datxe"/>
+
+    <ListView
+        android:id="@+id/lvdangcho"
+        android:layout_width="match_parent"
+        android:layout_height="348dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnxemsoxe"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="250dp"
+            android:backgroundTint="#29ADB2"
+            android:text="Xem sổ xe" />
+    </LinearLayout>
+</LinearLayout>

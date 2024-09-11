@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#506AD0B2"
+    tools:context=".LoaiXe.LoaiXe_Activity">
+
+
+
+    <EditText
+        android:id="@+id/edtidloaixe"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="ID Loại xe" />
+
+    <EditText
+        android:id="@+id/edttenloaixe"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tên loại xe"  />
+
+    <ListView
+        android:id="@+id/listview_loaixe"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="325dp">
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsualoaixe"
+            android:layout_width="140dp"
+            android:backgroundTint="#6AD0B2"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sửa" />
+
+        <Button
+            android:id="@+id/btnthemloaixe"
+            android:layout_width="140dp"
+            android:backgroundTint="#6AD0B2"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Thêm" />
+
+        <Button
+            android:id="@+id/btnxoaloaixe"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#6AD0B2"
+            android:layout_weight="1"
+            android:text="Xóa" />
+    </LinearLayout>
+
+</LinearLayout>

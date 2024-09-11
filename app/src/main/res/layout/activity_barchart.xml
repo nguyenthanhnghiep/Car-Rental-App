@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".QuanLy.Barchart_activity"
+    android:background="#505FCF86">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Doanh Thu Theo Quý Năm 2023 "
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/chartLayout"
+        android:layout_width="match_parent"
+        android:layout_height="569dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_datxe"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <!-- Biểu đồ sẽ được thêm vào đây -->
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#506AD0B2"
+    tools:context=".KhachHang.Add_KhachHang">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/newloho2"/>
+
+    <EditText
+        android:id="@+id/edthotenkh"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="Họ tên khách hàng"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtcmnd"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="CMND"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtblx"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="Bằng lái xe"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtcoqan"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="Cơ quan"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="390dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_dangky"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/btndangky_kh"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#6AD0B2"
+        android:text="Đăng Ký" />
+
+
+</LinearLayout>

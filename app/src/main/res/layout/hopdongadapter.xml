@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@drawable/btn_datxe"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idhopdong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="ID Hợp đồng" />
+
+        <TextView
+            android:id="@+id/ngaylaphopdong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngày lập hợp đồng" />
+
+        <TextView
+            android:id="@+id/edtdiadiemnhanxe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm nhận xe" />
+
+        <TextView
+            android:id="@+id/tviddatxe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID đặt xe" />
+
+        <TextView
+            android:id="@+id/edtdiadiemtraxe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Địa điểm trả xe" />
+
+        <TextView
+            android:id="@+id/edttiencoc_hd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiền cọc" />
+
+        <TextView
+            android:id="@+id/edttiencocconalai_hd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tiền cọc còn lại" />
+        <TextView
+            android:id="@+id/edttinhtranghd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tình trạng hợp đồng" />
+    </LinearLayout>
+
+
+</LinearLayout>
